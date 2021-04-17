@@ -1,0 +1,9 @@
+[Unit]
+Description=AMD Radeon tweaks
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/amd-radeon-tweaks.sh
+
+[Install]
+WantedBy=multi-user.target
